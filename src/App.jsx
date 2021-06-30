@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './app.css'
 
 
+
 function App() {
   const quesArray=[
     {id:1 , amount:1000} , 
@@ -17,12 +18,16 @@ function App() {
     {id:10, amount:200000},
   ]
 
+  
+
 
   const[questionNumber , setQuestionNumber] = useState(1)
   return (
     
       <div className='app'>
-        <div className="main">main</div>
+        <div className="main">
+       
+        </div>
         <div className="pyramid">
           <ul className='moneylist'>
             {
@@ -40,6 +45,7 @@ function App() {
              
               
           </ul>
+        
         </div>
 
       </div>
